@@ -1,0 +1,1 @@
+This is a project as part of The Odin Project's foundation course. The "Recipes" project involves building a website using the HTML concepts covered in the course so far.
