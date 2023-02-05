@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.title-banner {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    font-size: 3rem;
+}
+
+.recipe-section {
+    background-color: rgb(241, 248, 146);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.recipe-cards {
+    display: flex;
+    width: 80%;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: rgb(5, 20, 20);
+    padding: 0.2rem;
+    border: 1px solid #FFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.card p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #FFF;
+
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)), 
+    url('/images/tikkamasala.jpeg');
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+}
+
+.recipe-info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(190, 190, 190, 0.5);
+    min-height: 100%;
+    width: 100%;
+}
+
+.recipe-description {
+    padding: 2rem;
+    text-align: center;
+    width: 50%;
+}
+
+.recipe-description p {
+    margin-top: 1rem;
+}
+
+.recipe-boxes {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
