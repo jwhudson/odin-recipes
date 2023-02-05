@@ -56,14 +56,29 @@ body {
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0,0,0,0.5), 
-    rgba(0,0,0,0.5)), 
-    url('/images/tikkamasala.jpeg');
     height: 50vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.hero-curry {
+    background-image: linear-gradient(rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)), 
+    url('/images/tikkamasala.jpeg');
+}
+
+.hero-taco {
+    background-image: linear-gradient(rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)), 
+    url('/images/tacos.jpg');
+}
+
+.hero-fish {
+    background-image: linear-gradient(rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)), 
+    url('/images/fish-and-chips.jpg');
 }
 
 .hero-text {
